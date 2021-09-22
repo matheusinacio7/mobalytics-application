@@ -1,0 +1,72 @@
+:root {
+  --bg-base: rgb(21, 18, 55);
+  --bg-light: rgb(37, 32, 70);
+
+  --primary-base: rgb(242, 193, 69);
+  --primary-light: rgb(243, 194, 71);
+
+  --text-base: rgb(255, 255, 255);
+  --text-muted: rgb(179, 180, 208);
+
+  --font-family-headings: 'Oswald', 'sans-serif';
+  --font-family-base: 'Roboto', 'sans-serif';
+}
+
+body, html {
+  min-height: 100vh;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-base);
+}
+
+p {
+  font-family: var(--font-family-base);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.u-float-left {
+  float: left;
+  margin: 0 18px 18px 0;
+}
+
+.u-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 24px;
+  max-width: 840px;
+}
+
+.HEADING {
+  color: var(--text-base);
+  font-family: var(--font-family-headings);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.HEADING strong {
+  color: var(--primary-base);
+}
+
+.HEADING .v-hero {
+  font-size: 7rem;
+}
+
+.HERO {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.AVATAR {
+  width: 30%;
+  border-radius: 12px;
+}
+
